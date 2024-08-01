@@ -57,4 +57,10 @@ section {
     border-radius: 5px;
     color: aliceblue;
     border: none;
+    cursor: pointer;
+}
+
+.content button:hover {
+    background-color: #222934;
+    transition: 1s;
 }

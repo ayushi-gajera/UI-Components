@@ -40,7 +40,18 @@
 
       <div class="form-group">
         <label for="phone">Phone number</label>
-        <input type="tel" id="phone">
+        <div class="form-group-phone-no">
+          <select class="country-code">
+            <div>
+              <option>US</option>
+              <option>India</option>
+              <option>Russia</option>
+              <option>Australia</option>
+              <option>Canada</option>
+            </div>
+          </select>
+          <input type="tel" maxlength="10" id="phone">
+        </div>
       </div>
 
       <div class="form-group">
@@ -49,8 +60,9 @@
       </div>
 
       <div class="form-group-last">
-        <label class="checkbox-container">
+        <label class="toggle">
           <input type="checkbox">
+          <span class="slider"></span>
         </label>
         <p class="privacy-policy">By selecting this, you agree to our <a href="#">privacy policy</a>.</p>
       </div>

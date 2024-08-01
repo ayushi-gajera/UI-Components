@@ -34,6 +34,10 @@ section {
     align-items: center;
 }
 
+.blog_img img {
+    object-fit: cover;
+}
+
 .blogs :nth-child(2) .date {
     display: flex;
     gap: 20px;

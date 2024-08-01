@@ -43,9 +43,12 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border: 1px solid #F3F4F6;
-    border-radius: 10px;
     padding: 0 30px;
+}
+
+.card:nth-child(1),
+.card:nth-child(2) {
+    border-right: 2px solid #F3F4F6;
 }
 
 .card .head,
@@ -76,6 +79,12 @@
     color: aliceblue;
     margin-bottom: 10px;
     font-size: 15px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #3939ba;
+    transition: 1s;
 }
 
 .card li {
@@ -83,11 +92,9 @@
     list-style: none;
 }
 
-.card li:before {
-    content: '✓';
-    color: aliceblue;
+li i {
     background-color: #4848E0;
+    color: aliceblue;
     border-radius: 50%;
-    padding: 0.5px 2px;
-    margin-right: 15px;
+    margin-right: 10px;
 }
