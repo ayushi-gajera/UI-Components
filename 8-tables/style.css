@@ -38,6 +38,11 @@ body {
     font-size: 15px;
 }
 
+.add-user:hover {
+    background-color: #3939c5;
+    transition: 1s;
+}
+
 table {
     margin-top: 30px;
     width: 100%;
